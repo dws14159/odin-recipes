@@ -3,8 +3,15 @@ body {
 }
 
 ul {
-    background-color: aqua;
     color :darkblue;
+    width: fit-content;
+}
+
+.fancy-list li {
+    padding: 10px 30px;
+    margin: 2px;
+    background-color: aqua;
+    /* width: 200px; */
 }
 
 ol {
